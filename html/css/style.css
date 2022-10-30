@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "SugarPie";
+  src: url(C:\Users\usuario\Code\classettes\font);
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title_nav {
+  margin: 0px;
+  margin-left: 50px;
+  font-family: 'SugarPie';
+}
+
+.btn_nav {
+  text-decoration: none;
+  color: black;
+}
+
+.container_btn {
+  display: flex;
+  gap: 35px;
+  margin-right: 50px;
+}
