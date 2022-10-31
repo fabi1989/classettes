@@ -25,3 +25,29 @@
   gap: 35px;
   margin-right: 50px;
 }
+
+/*ESTILOS DE PRODUCTOS*/
+
+.container_products {
+  margin-top: 50px;
+  padding: 10px;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+  cursor: pointer;
+}
+
+#socks {
+  width: 150px;
+  height: 230px;
+}
+
+.producto {
+  display: flex;
+  justify-content: center;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+}
