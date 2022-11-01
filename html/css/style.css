@@ -3,10 +3,15 @@
   src: url(C:\Users\usuario\Code\classettes\font);
 }
 
+.body {
+  margin: 0px;
+}
+
 .header_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 5px;
 }
 
 .title_nav {
@@ -24,4 +29,41 @@
   display: flex;
   gap: 35px;
   margin-right: 50px;
+}
+
+/*ESTILOS DE PRODUCTOS*/
+
+.container_products {
+  margin-top: 50px;
+  padding: 10px;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(6, 1fr);
+  cursor: pointer;
+}
+
+#socks {
+  width: 150px;
+  height: 230px;
+  margin-left: 15px;
+}
+
+.producto {
+  justify-content: center;
+  border: solid 1px black;
+  border-radius: 7px;
+  width: 180px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: solid 1px black;
+  background-color: black;
+  border-radius: 7px;
+  color: white;
+  height: 40px;
+  padding: 3px;
+  gap: 4px;
 }
